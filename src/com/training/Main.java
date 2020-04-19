@@ -49,5 +49,9 @@ public class Main {
         pointOne.x = 2;
 
         System.out.println(pointTwo);
+
+        String greeting = "Ahoy Sailor o/ ⛵️";
+
+        System.out.println(greeting.length(️));
     }
 }
