@@ -1,5 +1,6 @@
 package com.training;
 
+import java.awt.*;
 import java.util.Date;
 
 public class Main {
@@ -40,5 +41,17 @@ public class Main {
         Date now = new Date();
 
         System.out.println("Ahoy sailor o/ ⛵️, " + now);
+
+
+        Point pointOne = new Point(1, 1);
+        Point pointTwo = pointOne;
+
+        pointOne.x = 2;
+
+        System.out.println(pointTwo);
+
+        String greeting = "Ahoy Sailor o/ ⛵️";
+
+        System.out.println(greeting.length(️));
     }
 }
