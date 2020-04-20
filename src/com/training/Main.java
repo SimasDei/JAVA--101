@@ -44,14 +44,12 @@ public class Main {
 
 
         Point pointOne = new Point(1, 1);
-        Point pointTwo = pointOne;
 
         pointOne.x = 2;
 
-        System.out.println(pointTwo);
+        System.out.println(pointOne);
 
-        String greeting = "Ahoy Sailor o/ ⛵️";
-
-        System.out.println(greeting.length(️));
+        String greeting = "Ahoy Sailor o/ ⛵.️";
+        System.out.println(greeting.length());
     }
 }
